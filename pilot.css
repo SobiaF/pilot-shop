@@ -1,5 +1,7 @@
 * {
-	box-size: border-box;
+	box-sizing: border-box;
+	background-color: #000;
+	color: #FFF;
 }
 
 body {
@@ -15,6 +17,9 @@ nav .nav-links1 {
 	list-style-type: none;
 }
 
+nav .nav-links1 li {
+	padding-top: 10px;
+}
 
 nav .nav-links2 {
 	display: flex;
@@ -26,9 +31,10 @@ nav .nav-links2 {
 }
 
 nav button {
-	color: 	#808080;
+	color: #808080;
 	border: 0.5px solid #D3D3D3;
 	background-color: #D3D3D3;
+	font-size: 25px;
 }
 
 .nav-links1 .nav-links2 {
